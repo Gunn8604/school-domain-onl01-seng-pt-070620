@@ -6,8 +6,6 @@ class School
   roster["grade"] << "name"
   roster {"grade"=> ["name"]}
   def initialize(name, grade, roster)
-    @name = name
-    @grade = grade
     @roster = roster
   end
   
