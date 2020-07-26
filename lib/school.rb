@@ -9,7 +9,7 @@ class School
 
   
   def add_student(name, grade)
-    if grade.exist?(x)
+    if grade.exist?
       roster[grade] << name
     else
       roster[grade] = []
