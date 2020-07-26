@@ -16,7 +16,7 @@ class School
       roster[grade] << name
   end
   
-  def grade
-    School[:grade]
+  def grade(student_grade)
+    
 end
 end
