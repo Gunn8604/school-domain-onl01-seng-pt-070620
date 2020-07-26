@@ -20,11 +20,18 @@ class School
     roster[student_grade]
   end
   
-  def sort
-    sort = {}
-    roster.each do |grade, students|
-      sort[grade] = students.sort
+  def sort  #part 4
+    sorted = {} 
+    roster.each do |grade, students| #iterate through each grade and student
+      sorted[grade] = students.sort #grade is the key in the sorted hash. Value is the students sorted in ABC order.
     end
+    sorted #the new sorted roster.
+  end
 end
+  # def sort
+  #   sort = {}
+  #   roster.each do |grade, students|
+  #     sort[grade] = students.sort
+  #   end
 end
 end
