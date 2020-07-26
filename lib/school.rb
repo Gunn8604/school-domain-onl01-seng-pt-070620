@@ -6,13 +6,13 @@ class School
     @name = name
     @roster = {}
   end
-  
-  roster["grade"] = []
-  roster["grade"] << "name"
-  roster {"grade"=> ["name"]}
+
   
   def add_student
     @roster.push("#{name}, #{grade}")
+      roster["grade"] = []
+      roster["grade"] << "name"
+      roster {"grade"=> ["name"]}
   end
 end
 
