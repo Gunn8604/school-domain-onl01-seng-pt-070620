@@ -8,7 +8,7 @@ class School
   end
 
   
-  def add_student
+  def add_student("name", grade)
     @roster.push("#{name}, #{grade}")
       roster["grade"] = []
       roster["grade"] << "name"
