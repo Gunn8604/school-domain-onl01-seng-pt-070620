@@ -12,7 +12,7 @@ class School
   end
   
   def add_student
-    @roster "#{name", #{grade}
+    @roster "#{name}, #{grade}"
   end
 end
 
