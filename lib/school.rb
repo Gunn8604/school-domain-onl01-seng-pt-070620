@@ -17,6 +17,6 @@ class School
   end
   
   def grade
-    
+    School[:grade]
 end
 end
