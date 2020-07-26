@@ -17,6 +17,7 @@ class School
   end
   
   def grade(student_grade)
-    
+    roser[student_grade]
+  end
 end
 end
